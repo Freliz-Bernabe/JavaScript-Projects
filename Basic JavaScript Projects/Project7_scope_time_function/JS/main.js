@@ -33,7 +33,7 @@ if (10<11) { //Displaying an if statement
 }
 
 function Age_Function(){ //Displaying an else statement
-    Status = document.getElementById("Age").value;
+    Age = document.getElementById("Age").value;
     if (Age>=18) {
         Vote="You are old enough to vote!";
     }

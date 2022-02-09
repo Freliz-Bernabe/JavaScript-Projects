@@ -1,4 +1,4 @@
-function Ride_function() { //Displaying a function using ternary operation
+function ride_Function() { //Displaying a function using ternary operation
     var Height, Can_ride;
     Height = document.getElementById("Height").value;
     Can_ride = (Height<52) ? "You are too short!":"You are tall enough!";
